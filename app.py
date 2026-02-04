@@ -101,12 +101,12 @@ def load_data_excel():
         print("Loading data dari Excel (Aug-Dec 2025)...")
         
         files = [
-            "DataGempaAgustus2025.xlsx",
-            "DataGempaDesember2025.xlsx",
-            "DataGempaJuni2025.xlsx",
-            "DataGempaNovember2025.xlsx",
-            "DataGempaOktober2025.xlsx",
-            "DataGempaSeptember2025.xlsx"
+            "data/DataGempaAgustus2025.xlsx",
+            "data/DataGempaDesember2025.xlsx",
+            "data/DataGempaJuni2025.xlsx",
+            "data/DataGempaNovember2025.xlsx",
+            "data/DataGempaOktober2025.xlsx",
+            "data/DataGempaSeptember2025.xlsx"
         ]
         
         dfs = []
@@ -947,4 +947,5 @@ st.markdown("""
     <p>Data Seamless: Excel (Aug-Dec 2025) + BMKG Real-time (1 Jan - sekarang)</p>
     <p>Auto-update setiap 1 jam | Sumber: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika)</p>
 </div>
+
 """, unsafe_allow_html=True)
