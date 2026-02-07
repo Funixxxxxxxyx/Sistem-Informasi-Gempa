@@ -212,12 +212,12 @@ def load_data_excel():
     """Load data dari 6 file Excel (Aug-Dec 2025)"""
     try:
         files = [
-            "DataGempaAgustus2025.xlsx",
-            "DataGempaDesember2025.xlsx",
-            "DataGempaJuni2025.xlsx",
-            "DataGempaNovember2025.xlsx",
-            "DataGempaOktober2025.xlsx",
-            "DataGempaSeptember2025.xlsx"
+            "data/DataGempaAgustus2025.xlsx",
+            "data/DataGempaDesember2025.xlsx",
+            "data/DataGempaJuni2025.xlsx",
+            "data/DataGempaNovember2025.xlsx",
+            "data/DataGempaOktober2025.xlsx",
+            "data/DataGempaSeptember2025.xlsx"
         ]
         
         dfs = []
@@ -974,4 +974,5 @@ st.markdown("""
     <p>Seamless Data: Excel (Aug-Dec 2025) + BMKG Real-time (1 Jan - sekarang)</p>
     <p>Sumber: BMKG (Badan Meteorologi, Klimatologi, dan Geofisika) + Historical Excel</p>
 </div>
+
 """, unsafe_allow_html=True)
